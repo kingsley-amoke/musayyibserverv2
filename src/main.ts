@@ -4,7 +4,7 @@ import { configDotenv } from 'dotenv';
 import express from 'express';
 
 async function bootstrap() {
-  configDotenv();
+  // configDotenv();
 
   const app = await NestFactory.create(AppModule);
   app.enableCors();
